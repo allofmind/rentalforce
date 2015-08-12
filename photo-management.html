@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+<head>
+    <title>Rental</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/custom_jquery-ui.min.css">
+    <link rel="stylesheet" type="text/css" href="css/icon.css">
+    <link rel="stylesheet" type="text/css" href="css/selectric.css">
+</head>
+<body>
+
+<div class="left-panel-activator-container"><div class="left-panel-activator"><span class="icon-property"></span><span class="icon-delete"></span></div></div>
+<div class="left-panel-container">
+    <div class="left-panel">
+        <a href="#" class="logo-container">
+            <img src="img/rentalsforce-logo-bold-inverse-print.png" alt="Rental force" />
+        </a>
+        <div class="user-container">
+            <div class="icon-container-wrap">
+                <div class="icon-container">
+                    <img src="img/bitmap.png" alt="User">
+                    <div class="note"></div>
+                </div>
+            </div>
+            <div class="info-container">
+                <header>Welcome</header>
+                <p>Konstantin Western</p>
+            </div>
+        </div>
+        <nav class="main-nav">
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-dashboard"></span>
+                    <span class="title">dashboard</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-inquiries"><span class="tasks">21</span></span>
+                    <span class="title">inquiries</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-contacts"></span>
+                    <span class="title">contacts</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-reservation-center"><span class="tasks">21</span></span>
+                    <span class="title">reservation center</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-availability"></span>
+                    <span class="title">availability</span>
+                </a>
+            </div>
+            <div class="link active">
+                <a href="">
+                    <span class="icon icon-properties"></span>
+                    <span class="title">properties</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-import"></span>
+                    <span class="title">import</span>
+                </a>
+            </div>
+            <div class="link">
+                <a href="">
+                    <span class="icon icon-templates"></span>
+                    <span class="title">templates</span>
+                </a>
+            </div>
+        </nav>
+    </div>
+</div>
+<div class="main-container">
+    <aside class="main-header">
+        <div class="search-container">
+            <div class="search">
+                <input type="text" placeholder="Type to search …" />
+                <span class="icon-search"></span>
+            </div>
+        </div>
+        <div class="user-container">
+            <div class="user">
+                <div class="user-info">
+                    <span class="title">Konstantin Western</span>
+                    <span class="icon-setting"></span>
+                </div>
+                <div class="user-settings">
+                    <div class="user-avtar">
+                        <img src="img/bitmap.png" alt="avatar">
+                    </div>
+                    <p class="mail">housing@literalltic.com</p>
+                    <ul class="setup">
+                        <li><a class="change-password" href="">Change password</a></li>
+                        <li><a class="edit-Profile" href="">Edit Profile</a></li>
+                        <li><a class="photo-gallery" href="">Photo Gallery</a></li>
+                        <li><a class="setting" href="">Setting</a></li>
+                        <li><a class="add-new-user" href="">Add new user</a></li>
+                        <li class="line"></li>
+                        <li><a class="log-out" href="">Log Out</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </aside>
+    <section class="main-content">
+
+        <nav class="location-top-bar property-top-bar">
+          <button class="dropdown"><span class="general">GENERAL</span></button>
+          <ul class="dropdown-menu xs">
+              <li  class="active">Location</li>
+              <li>Property information</li>
+              <li>Amenities</li>
+              <li>Policies</li>
+              <li>Check-Ins/Outs</li>
+              <li>Feed</li>
+              <li>Services</li>
+          </ul>
+          <button><span class="pricing">PRICING</span></button>
+          <button class="active"><span class="photos">PHOTOS</span></button>
+          <button><span class="calendar">CALENDAR</span></button>
+          <button><span class="marketing">MARKETING</span></button>
+          <button class="dark-red"><span class="delete-product">DELETE PRODUCT</span></button>
+          <ul class="dropdown-menu-bottom md">
+              <li>Location</li>
+              <li>Property information</li>
+              <li>Amenities</li>
+              <li>Policies</li>
+              <li>Check-Ins/Outs</li>
+              <li>Feed</li>
+              <li>Services</li>
+          </ul>
+        </nav>
+
+        <header class="main-title">
+          <h1>Photo Management</h1>
+          <p>RentalsForce user dashboard</p>
+        </header>
+        <div class="table-filter-container">
+          <section class="table-filter">
+            <div class="left-container">
+              <div class="button-wrap">
+                <h4 class="ff-montserrat">Add new photo</h4>
+              </div>
+            </div>
+            <div class="right-container-wrap">
+              <form class="right-container">
+                <input class="dp-none" type="file" id="choose-file"  accept="image/*" >
+                <label class="form-chs-file" for="choose-file">
+                  <span class="choose-file">No file selected</span><span class="span-chs-file">Choose File</span>
+                </label>
+                <div class="button-container">
+                  <button class="button btn-chs-file">UPLOAD</button>
+                </div>
+              </form>
+            </div>
+          </section>
+        </div>
+        <article class="tab-box add-lead">
+            <header>
+                <h3>Polices</h3>
+            </header>
+            <section id="photos">
+                <img class="content-img" src="img/add-img-1.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-4.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-8.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-2.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-5.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-2.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-9.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-1.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-10.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-6.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-12.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-3.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-7.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-11.png" alt="Alt Image Text" />
+                <img class="content-img" src="img/add-img-13.png" alt="Alt Image Text" />
+            </section>
+        </article>
+    </section>
+</div>
+
+<script type="text/javascript" src="js/lib/jquery-2.1.4.min.js"></script>
+<script type="text/javascript" src="js/lib/jquery-ui.min.js"></script>
+<script src="js/lib/jquery.selectric.min.js"></script>
+<script type="text/javascript" src="js/element.js"></script>
+</body>
+</html>
